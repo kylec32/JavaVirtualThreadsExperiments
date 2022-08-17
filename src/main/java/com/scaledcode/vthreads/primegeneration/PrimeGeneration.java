@@ -6,7 +6,6 @@ import java.util.concurrent.Executors;
 public class PrimeGeneration {
     private static final int NUMBER_OF_ITERATIONS = 64;
     private static final int NUMBER_OF_PRIMES_TO_FIND = 1_0000;
-    public static final int NUMBER_OF_PROCESSORS = Runtime.getRuntime().availableProcessors();
 
     public void process(ExecutorService executorService) {
         long startTime = System.currentTimeMillis();
